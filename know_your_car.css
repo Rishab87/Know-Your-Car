@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navtext {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+    bottom: 50px;
+    left: 65vw;
+    margin-left: 35px;
+    font-size: large;
+}
+
+
+#navitems {
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+}
+
+
+.nav {
+    width: 100vw;
+    height: 75px;
+    background-color: #2C3333;
+    position: fixed;
+    top: 0px;
+}
+
+h1 , h2{
+    margin-left: 5px;
+    color: black;
+}
+
+
+.info h2 , h1 , p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 10px 0px 10px;
+    text-shadow: black 1px 1px 5px , black -1px -1px 5px;
+}
+
+.cards img {
+    border-radius: 20px 20px 0px 0px ;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    
+}
+
+.cards img:hover {
+    transform: scale(1.1);
+}
+
+#car {
+    border-radius: 20px;
+    margin: 20px;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    width: 100vw; 
+    margin-top: 70px;  
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#infoitem {
+    align-self: center;
+    border-radius: 10px;
+}
+
+
+body {
+    animation: 1s linear 0s 1 forwards running fade;
+    overflow-x: hidden;
+}
+
+@keyframes fade{
+     0% {
+        opacity: 0;
+        
+    }
+     100%{
+        opacity: 1;
+    }
+}
+
+
+.footer {
+    width: 100vw;
+    background-color: #2C3333;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.footer h2{
+    color: white;
+    margin-left: 0px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2C3333;
+}
+
+.footer  a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#icon a {
+    display: inline;
+}
+
+
